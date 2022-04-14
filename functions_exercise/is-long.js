@@ -1,9 +1,5 @@
 var isLong = function(string) {
-    if (string.length <= 5) {
-        return false;
-    } else {
-        return true;
-    }
+    return (string.length > 5);
 };
 
 console.log(isLong("pie")); // false
