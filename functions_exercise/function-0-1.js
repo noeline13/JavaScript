@@ -7,7 +7,12 @@ let whistle = function() {
 }
 console.log("premier");
 console.log("second");
-saluer();
+let saluer = function() {
+
+}
 console.log("third");
 console.log("quatrieme");
-siffler();
+
+let siffler = function() {
+
+}

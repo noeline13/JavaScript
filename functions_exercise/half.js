@@ -4,6 +4,7 @@ let half = function(number) {
 console.log(half(8)); // 4
 console.log(half(15)); // 7,5
 console.log(half(90)); // 45
+
 let isLong = function(string) {
     if (string.length <= 5) {
         return false
