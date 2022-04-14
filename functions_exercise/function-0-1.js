@@ -1,18 +1,18 @@
-let greet = function() {
-    console.log("hello;")
-    console.log("programmer")
+var greet = function() {
+    console.log("hello;");
+    console.log("programmer");
 };
-let whistle = function() {
+var whistle = function() {
     console.log("doot");
-}
+};
 console.log("premier");
 console.log("second");
-let saluer = function() {
+var saluer = function() {
 
-}
+};
 console.log("third");
 console.log("quatrieme");
 
-let siffler = function() {
+lvarsiffler = function() {
 
-}
+};

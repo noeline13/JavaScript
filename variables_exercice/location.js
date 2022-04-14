@@ -1,4 +1,4 @@
-let location = "Japan, " + " ASIA ";
+var location = "Japan, " + " ASIA ";
 console.log(location);
-let quantity = 4 * 4 + 1;
+var quantity = 4 * 4 + 1;
 console.log(quantity);

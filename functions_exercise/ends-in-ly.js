@@ -1,5 +1,5 @@
 function endsInLy(str) {
-    return (str.endsWith("ly"))
+    return (str.endsWith("ly"));
 
 }
 

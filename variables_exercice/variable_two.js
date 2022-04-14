@@ -1,12 +1,12 @@
-let mango;
+var mango;
 console.log(mango);
 mango = 10;
 console.log(mango);
-mango + 1;
+mango += 1;
 console.log(mango);
 mango += 1;
 console.log(mango);
-let banana = mango;
+var banana = mango;
 console.log(banana);
 banana = banana / 2;
 console.log(banana);

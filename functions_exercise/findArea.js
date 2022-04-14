@@ -1,5 +1,4 @@
-let findArea = function(a, b) {
-    console.log("calcul...");
-    return (a + b) / 2;
-}
-console.log(findArea(6, 9))
+ function findArea(a, b) {
+     return a * b;
+ }
+ console.log(findArea(6, 9));

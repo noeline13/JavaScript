@@ -1,8 +1,8 @@
 function contains(str1, str2) {
     if (str1.toLowerCase().includes(str2.toLowerCase())) {
-        return true
+        return true;
     } else {
-        return false
+        return false;
     }
 }
 console.log(contains("caterpillar", "pill")); // true

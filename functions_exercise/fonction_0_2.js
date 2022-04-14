@@ -1,8 +1,8 @@
-let exclaim = function(str) {
-    let capitalized = str.toUpperCase();
+var exclaim = function(str) {
+    var capitalized = str.toUpperCase();
     return capitalized + " !!";
 };
-let result = exclaim("potato");
+var result = exclaim("potato");
 console.log(result);
 console.log(result.length);
 console.log(result[0]);
