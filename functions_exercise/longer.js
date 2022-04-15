@@ -1,11 +1,11 @@
 function longer(str1, str2) {
     max = 0;
     if (str1.length > str2.length || str1.length == str2.length) {
-        max = str1
+        max = str1;
     } else {
-        max = str2
+        max = str2;
     }
-    return max
+    return max;
 }
 console.log(longer("drum", "piranha")); // 'piranha'.
 console.log(longer("basket", "fork")); // 'basket' (panier)
