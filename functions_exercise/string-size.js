@@ -1,15 +1,15 @@
 function stringSize(str) {
-    let size = ("");
+    var size = ("");
     if (str.length < 5) {
-        size = ("small")
+        size = ("small");
     }
     if (str.length === 5) {
-        size = ("avarage")
+        size = ("avarage");
     }
     if (str.length > 5) {
-        size = ("large")
+        size = ("large");
     }
-    return size
+    return size;
 }
 console.log(stringSize("cat")); // 'small' (petit)
 console.log(stringSize("bell")); // 'small' (petit)
