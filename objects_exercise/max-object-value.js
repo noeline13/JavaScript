@@ -1,7 +1,5 @@
 function maxObjectValue(obj) {
-    var sortedEntriesByVal = Object.entries(obj).sort(function([, v1][, v2]) {
-        return v1 - v2;
-    });
+    var sortedEntriesByVal = Object.entries(obj).sort(([, v1], [, v2]) => v1 - v2);
 
     return sortedEntriesByVal[sortedEntriesByVal.length - 1];
 
